@@ -34,7 +34,7 @@ export default function Navbar() {
               <Link to="/programi">Treniraj z mano</Link>
             </li>
             <li>
-              <a href="#home">Masaže</a>
+              <Link to="/masaze">Masaže</Link>
             </li>
             <li>
               <a href="#home">Članki</a>

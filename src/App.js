@@ -4,8 +4,9 @@ import Navbar from "./components/Navbar";
 
 import { Route, Routes } from "react-router-dom";
 import Main from "./components/Main";
-import VsiProgrami from "./components/VsiProgrami";
-import Omeni from "./components/Omeni";
+import AllPrograms from "./components/AllPrograms";
+import AboutMe from "./components/AboutMe";
+import AboutMassage from "./components/AboutMassage";
 
 function App() {
   return (
@@ -13,8 +14,9 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="/jaz" element={<Omeni />} />
-        <Route path="/programi" element={<VsiProgrami />} />
+        <Route path="/jaz" element={<AboutMe />} />
+        <Route path="/programi" element={<AllPrograms />} />
+        <Route path="/masaze" element={<AboutMassage />} />
       </Routes>
     </>
   );

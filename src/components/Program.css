@@ -39,3 +39,17 @@
 .programi-opis {
   padding: 0.5rem 2rem;
 }
+
+@media (min-width: 1000px) {
+  .program-cards {
+    display: flex;
+    margin: 1rem 1rem;
+    gap: 0.5rem;
+  }
+
+  .programi-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

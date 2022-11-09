@@ -1,6 +1,6 @@
 .main {
   background-color: #ecebe4;
-  padding: 1rem 1rem;
+  padding: 1rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,7 +16,8 @@
 .main-img {
   width: 100%;
   /* height: auto; */
-  margin: 0 auto;
+
+  justify-content: center;
 }
 
 h2 {
@@ -31,7 +32,7 @@ p {
 
 .oMeni {
   background-color: #daddd8;
-  padding: 1rem 1rem;
+  padding: 2rem 2rem;
   border-radius: 10px;
 }
 
@@ -42,4 +43,24 @@ p {
   margin-bottom: 1.5rem;
   border-radius: 5px;
   border: none;
+}
+
+@media (min-width: 1000px) {
+  .oMeni {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .oMeni p {
+    line-height: 1.5rem;
+  }
+
+  .main-img {
+    width: 40%;
+  }
+
+  .main-btn {
+    width: 60%;
+  }
 }
