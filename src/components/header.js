@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Header.css";
 
 export default function Header() {
   return (
-    <div className="main">
+    <div className="main" id="oMeni">
       <h1 className="quote">
         "Izzivi nas navdihujejo, zato je potrebno biti na njih dobro
         pripravljen."
@@ -24,7 +25,9 @@ export default function Header() {
           Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor,
           facilisis luctus, metus
         </p>
-        <button className="main-btn">O meni</button>
+        <Link to="/jaz">
+          <button className="main-btn">O meni</button>
+        </Link>
         <img
           src="./images/arnold.jpg"
           alt="fit oseba"

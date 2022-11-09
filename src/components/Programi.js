@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Programi.css";
 
 export default function Programi() {
   return (
-    <div className="programi">
+    <div className="programi" id="trening">
       <h2>Treniraj z mano</h2>
       <p className="programi-opis">
         Ponudim ti lahko individualne ali skupinske treninge, ter treninge za
@@ -21,7 +22,8 @@ export default function Programi() {
           S testiranjem strukturnega ravnovesja ugotovimo neravnovesja med
           mišicami in posledično dobimo možnost izboljšanja le tega.
         </p>
-        <button className="programi-btn">Vec o programih</button>
+        <Link to="/programi">test</Link>
+        {/* <button className="programi-btn">Vec o programih</button> */}
       </div>
       <div className="programi-card">
         <img

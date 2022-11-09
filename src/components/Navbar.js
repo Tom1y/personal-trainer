@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 export default function Navbar() {
@@ -8,34 +9,39 @@ export default function Navbar() {
   }
 
   return (
-    <div className="navbar">
-      <div className="navbar-logo">
-        <img src="./images/Logo(1).svg" alt="logo" className="logo-img"></img>
-        <h3 className="navbar-title">Blaž Podgoršek</h3>
+    <>
+      <div className="navbar">
+        <div className="navbar-logo">
+          <img src="./images/Logo(1).svg" alt="logo" className="logo-img"></img>
+          <h3 className="navbar-title">Blaž Podgoršek</h3>
+        </div>
+        <div>
+          <a href="#home" className="toggle-button" onClick={toggler}>
+            <span className="bar"></span>
+            <span className="bar"></span>
+            <span className="bar"></span>
+          </a>
+        </div>
+        <div className="navbar-links">
+          <ul>
+            <li>
+              <Link to="/">Domov</Link>
+            </li>
+            <li>
+              <Link to="/jaz">O meni</Link>
+            </li>
+            <li>
+              <Link to="/programi">Treniraj z mano</Link>
+            </li>
+            <li>
+              <a href="#home">Masaže</a>
+            </li>
+            <li>
+              <a href="#home">Članki</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div>
-        <a href="#home" className="toggle-button" onClick={toggler}>
-          <span className="bar"></span>
-          <span className="bar"></span>
-          <span className="bar"></span>
-        </a>
-      </div>
-      <div className="navbar-links">
-        <ul>
-          <li>
-            <a href="#home">O meni</a>
-          </li>
-          <li>
-            <a href="#home">Treniraj z mano</a>
-          </li>
-          <li>
-            <a href="#home">Masaže</a>
-          </li>
-          <li>
-            <a href="#home">Članki</a>
-          </li>
-        </ul>
-      </div>
-    </div>
+    </>
   );
 }
