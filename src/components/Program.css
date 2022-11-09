@@ -7,6 +7,12 @@
   padding-bottom: 2rem;
 }
 
+.program-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .programi-card {
   width: 65%;
   background-color: #daddd8;
