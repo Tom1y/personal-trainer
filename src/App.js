@@ -7,6 +7,7 @@ import Main from "./components/Main";
 import AllPrograms from "./components/AllPrograms";
 import AboutMe from "./components/AboutMe";
 import AboutMassage from "./components/AboutMassage";
+import AllArticles from "./components/AllArticles";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/jaz" element={<AboutMe />} />
         <Route path="/programi" element={<AllPrograms />} />
         <Route path="/masaze" element={<AboutMassage />} />
+        <Route path="/clanki" element={<AllArticles />} />
       </Routes>
     </>
   );

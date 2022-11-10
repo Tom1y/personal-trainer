@@ -37,7 +37,7 @@ export default function Navbar() {
               <Link to="/masaze">Masaže</Link>
             </li>
             <li>
-              <a href="#home">Članki</a>
+              <Link to="/clanki">Članki</Link>
             </li>
           </ul>
         </div>
