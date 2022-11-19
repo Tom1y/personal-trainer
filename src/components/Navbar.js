@@ -39,6 +39,9 @@ export default function Navbar() {
             <li>
               <Link to="/clanki">Članki</Link>
             </li>
+            <li>
+              <a href="#kontakt">Kontakt</a>
+            </li>
           </ul>
         </div>
       </div>

@@ -34,6 +34,7 @@
   background-color: #daddd8;
   padding: 2rem 2rem;
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .main-btn {
