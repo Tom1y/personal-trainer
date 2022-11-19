@@ -1,0 +1,28 @@
+.footer {
+  background-color: #1c1c1c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.footer-info {
+  color: #eef0f2;
+}
+
+.footer h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.footer button {
+  width: 50%;
+  padding: 0.5rem;
+  background-color: #eef0f2;
+  color: #1c1c1c;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}

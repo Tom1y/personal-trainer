@@ -92,3 +92,11 @@
     display: flex;
   }
 }
+
+@media (min-width: 1000px) {
+  .navbar-title {
+    display: inline;
+    text-transform: uppercase;
+    letter-spacing: 0.4rem;
+  }
+}

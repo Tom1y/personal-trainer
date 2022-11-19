@@ -20,12 +20,12 @@
   justify-content: center;
 }
 
-h2 {
+.oMeni h2 {
   color: #1c1c1c;
   margin-bottom: 1rem;
 }
 
-p {
+.oMeni p {
   color: #0d1b2a;
   margin-bottom: 2rem;
 }
