@@ -25,22 +25,34 @@ export default function Navbar() {
         <div className="navbar-links">
           <ul>
             <li>
-              <Link to="/">Domov</Link>
+              <Link to="/" onClick={toggler}>
+                Domov
+              </Link>
             </li>
             <li>
-              <Link to="/jaz">O meni</Link>
+              <Link to="/jaz" onClick={toggler}>
+                O meni{" "}
+              </Link>
             </li>
             <li>
-              <Link to="/programi">Treniraj z mano</Link>
+              <Link to="/programi" onClick={toggler}>
+                Treniraj z mano
+              </Link>
             </li>
             <li>
-              <Link to="/masaze">Masaže</Link>
+              <Link to="/masaze" onClick={toggler}>
+                Masaže
+              </Link>
             </li>
             <li>
-              <Link to="/clanki">Članki</Link>
+              <Link to="/clanki" onClick={toggler}>
+                Članki
+              </Link>
             </li>
             <li>
-              <a href="#kontakt">Kontakt</a>
+              <Link to="/kontakt" onClick={toggler}>
+                Kontakt
+              </Link>
             </li>
           </ul>
         </div>

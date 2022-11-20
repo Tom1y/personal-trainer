@@ -9,6 +9,7 @@ import AboutMe from "./components/AboutMe";
 import AboutMassage from "./components/AboutMassage";
 import AllArticles from "./components/AllArticles";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/programi" element={<AllPrograms />} />
         <Route path="/masaze" element={<AboutMassage />} />
         <Route path="/clanki" element={<AllArticles />} />
+        <Route path="/kontakt" element={<Contact />} />
       </Routes>
       <Footer />
     </>

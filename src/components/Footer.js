@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
 export default function Footer() {
@@ -10,9 +11,9 @@ export default function Footer() {
           Če te zanima kaj več, ali bi se rad pridružil moji ekipi, me
           kontaktiraj s klikom spodaj.
         </p>
-        <button>
-          <a href="mailto:horvat.tomi1@gmail.com">Kontakt</a>
-        </button>
+        <Link to="/kontakt">
+          <button>Kontakt</button>
+        </Link>
       </div>
     </div>
   );
