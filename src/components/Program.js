@@ -11,6 +11,9 @@ export default function Programi() {
         sportnike. Lahko izbiras tudi med on-line programi. Izbira programa je
         tvoja
       </p>
+      <Link to="/programi">
+        <button className="programi-btn">Seznam vseh programov</button>
+      </Link>
       <div className="program-cards">
         <div className="programi-card">
           <img
@@ -18,10 +21,11 @@ export default function Programi() {
             alt="joga"
             className="programi-img"
           ></img>
-          <h3>Testiranje strukturnega ravnovesja</h3>
+          <h3>Trening 3x tedensko</h3>
           <p>
-            S testiranjem strukturnega ravnovesja ugotovimo neravnovesja med
-            mišicami in posledično dobimo možnost izboljšanja le tega.
+            Osebni trening s trenerjem 3x tedensko v fitnesu. Paket zajema:
+            Brezplačen prvi posvet, individualiziran program treninga,
+            prehranski coaching in 24/7 podporo preko aplikacije Wapp
           </p>
           <Link to="/programi">
             <button className="programi-btn">Vec o programih</button>
@@ -33,12 +37,11 @@ export default function Programi() {
             alt="joga"
             className="programi-img"
           ></img>
-          <h3>Osebni trening – 2 x tedensko</h3>
+          <h3>Trening 2x tedensko</h3>
           <p>
-            Osebni trening 2x tedensko s trenerjem v fitnesu. Paket zajema:
-            začetni sestanek in priprava načrta za dosego cilja, individualni
-            program vadbe, oblikovanje in svetovanje jedilnika skozi celotno
-            obdobje sodelovanja, e-knjiga Kaj naj jem.
+            Osebni trening s trenerjem 2x tedensko v fitnesu. Paket zajema:
+            Brezplačen prvi posvet, individualiziran program treninga,
+            prehranski coaching in 24/7 podporo preko aplikacije Wapp
           </p>
           <Link to="/programi">
             <button className="programi-btn">Vec o programih</button>
@@ -50,12 +53,11 @@ export default function Programi() {
             alt="joga"
             className="programi-img"
           ></img>
-          <h3>Osebni trening – 3 x tedensko</h3>
+          <h3>Trening v paru 3x tedensko</h3>
           <p>
-            Osebni trening s trenerjem 3x tedensko v fitnesu. Paket zajema:
-            začetni sestanek in priprava načrta za dosego cilja, individualni
-            program vadbe, oblikovanje in svetovanje jedilnika skozi celotno
-            obdobje sodelovanja e-knjiga Kaj naj jem.
+            Osebni trening v paru s trenerjem 3x tedensko v fitnesu. Paket
+            zajema: Brezplačen prvi posvet, individualiziran program treninga,
+            prehranski coaching in 24/7 podporo preko aplikacije Wapp
           </p>
           <Link to="/programi">
             <button className="programi-btn">Vec o programih</button>

@@ -4,36 +4,63 @@ import "./AboutMe.css";
 export default function Omeni() {
   return (
     <div className="AboutMe">
-      <h1>To je naslov</h1>
-      <h2>Mogoce neki podnaslov</h2>
+      <h1>O meni</h1>
+      {/* <h2>Mogoce neki podnaslov</h2> */}
       <p>
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        fames ac turpis egestas.
+        Nikoli nisem bil dober športnik. Če sem popolnoma iskren, nikoli nisem
+        niti maral športne vzgoje v šoli in verjetno sem bil eden najslabših
+        nogometašev v zgodovini NK Središče ob Dravi. Edino, kar me je zanimalo,
+        so bile borilne veščine. Zato sem v najstniških letih začel trenirati
+        aikido, kickbox in tajski boks, ampak tudi tam sem bil čisto povprečen.
+        Če bi mi nekdo takrat rekel da bom osebni trener, bi ga vprašal po
+        zdravju.
       </p>
       <br></br>
       <p>
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
-        ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
-        egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend
-        leo.
+        Nato pa sem se pri 19. letih zaradi nizke samozavesti in slabe
+        samopodobe odločil, da bom pričel trenirati v fitnesu in se tako prvič
+        srečal z bodybuildingom – to pa me je popolnoma prevzelo. Ure in ure sem
+        preživel za knjigami in videi o treningih, anatomiji, biomehaniki,
+        prehrani in vse to preizkušal na sebi v fitnesu. Po končanem študiju sem
+        opravil še vrsto tečajev za masaže in delal kot maser. Svoje znanje o
+        treningu in prehrani sem leta 2021 še formaliziral z mednarodno IFPA
+        licenco za osebnega trenerja in se takoj zaposlil kot osebni trener.
+        Skozi delo z več kot X strankami sem pridobil neprecenljive praktične
+        izkušnje.
       </p>
       <br />
       <p>
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
-        ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
-        egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend
-        leo.
+        Svoje znanje še naprej nadgrajujem s številnimi nadaljevalnimi tečaji in
+        seminarji.
       </p>
       <br />
       <p>
-        Pellentesque habitant morbi tristique senectus et netus et malesuada
-        fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
-        ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
-        egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend
-        leo.
+        Trdno sem prepričan, da čisto vsak lahko doseže svoje fitnes cilje. Vse,
+        kar potrebuješ, je volja in ustrezno vodstvo. Za prvo moraš poskrbeti
+        sam, za drugo pa sem tukaj jaz.
       </p>
+      <h2>Izobraževanja</h2>
+      <h4 className="fitnes-list">Fitnes:</h4>
+      <ul>
+        <li>IFPA mednarodno licenciran osebni trener</li>
+        <li>IFPA specialist športne prehrane</li>
+        <li>FemFit pred in po po-porodna vadba</li>
+        <li>
+          Clean health Fitness institute Dr. Layne Norton's Science of Nutrition
+        </li>
+        <li>
+          Clean health Fitness institute Dr. Layne Norton's Advanced Nutrition
+          for Fat Loss
+        </li>
+      </ul>
+      <h4 className="fitnes-list">Masaže:</h4>
+      <ul className="masaze">
+        <li>Tečaj klasične masaže</li>
+        <li>Tečaj športne masaže</li>
+        <li>Tečaj ročne limfne drenaže po dr. Vodnarju</li>
+        <li>Deep tissue in Trigger point masaža</li>
+      </ul>
+
       <img src="./images/hanza.jpg" alt="trener"></img>
     </div>
   );

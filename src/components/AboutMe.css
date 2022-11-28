@@ -7,7 +7,26 @@
 }
 
 .AboutMe img {
-  width: 25rem;
+  width: 90%;
   border-radius: 10px;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.fitnes-list {
+  align-self: start;
+  margin-top: 1rem;
+  margin-bottom: 0.7rem;
+}
+
+.masaze {
+  align-self: start;
+}
+
+.AboutMe li {
+  margin-bottom: 0.3rem;
+}
+
+.AboutMe h1 {
   margin-bottom: 2rem;
 }

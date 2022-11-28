@@ -6,13 +6,13 @@ export default function Footer() {
   return (
     <div className="footer" id="kontakt">
       <div className="footer-info">
-        <h2>Kontaktiraj me!</h2>
-        <p>
+        {/* <h2>Kontaktiraj me!</h2> */}
+        {/* <p>
           Če te zanima kaj več, ali bi se rad pridružil moji ekipi, me
           kontaktiraj s klikom spodaj.
-        </p>
+        </p> */}
         <Link to="/kontakt">
-          <button>Kontakt</button>
+          <button>Piši mi</button>
         </Link>
       </div>
     </div>

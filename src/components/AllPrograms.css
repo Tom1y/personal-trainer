@@ -1,6 +1,6 @@
 .AllPrograms {
   background-color: #ecebe4;
-  padding: 1rem 2rem;
+  /* padding: 1rem 2rem; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,4 +12,43 @@
   border-radius: 10px;
   display: flex;
   margin: 2rem auto;
+}
+
+.AllProgramsNavigation {
+  background-color: #1c1c1c;
+  width: 100%;
+  padding-top: 1rem;
+  opacity: 0.9;
+  padding-bottom: 1rem;
+}
+
+.AllProgramsNavigation a {
+  text-decoration: none;
+  color: #ecebe4;
+}
+
+.AllProgramsNavigation ul {
+  list-style-type: none;
+}
+
+.AllProgramsNavigation li {
+  margin-bottom: 0.5rem;
+  margin-top: 0.8rem;
+}
+
+.AllPrograms-card span {
+  font-weight: bold;
+}
+
+.AllPrograms-card {
+  margin-top: 1rem;
+}
+
+.AllPrograms-card h2,
+h3 {
+  margin-bottom: 0.5rem;
+}
+
+.AllPrograms-card ul {
+  list-style-type: none;
 }
