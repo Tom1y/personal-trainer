@@ -35,6 +35,17 @@
   }
 
   .article-img {
-    width: 50%;
+    width: 30%;
+    height: 22rem;
+  }
+
+  .article-card {
+    width: 60%;
+  }
+
+  .article-card p {
+    width: 70%;
+    margin: auto;
+    margin-bottom: 2rem;
   }
 }

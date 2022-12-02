@@ -4,23 +4,26 @@
   flex-direction: column;
   align-items: center;
   padding: 1rem 2rem;
+  text-align: center;
 }
 
 .AboutMe img {
   width: 90%;
   border-radius: 10px;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
 }
 
 .fitnes-list {
-  align-self: start;
+  align-self: center;
   margin-top: 1rem;
   margin-bottom: 0.7rem;
 }
 
-.masaze {
-  align-self: start;
+.list {
+  align-self: center;
+  text-align: center;
+  list-style: none;
 }
 
 .AboutMe li {
@@ -29,4 +32,21 @@
 
 .AboutMe h1 {
   margin-bottom: 2rem;
+}
+
+@media (min-width: 1000px) {
+  .AboutMe img {
+    height: 40rem;
+    width: 50%;
+  }
+
+  .AboutMe p {
+    width: 75%;
+  }
+
+  .AboutMe-galery {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+  }
 }

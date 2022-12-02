@@ -32,184 +32,188 @@ export default function VsiProgrami() {
           </li>
         </ul>
       </div>
-      <div className="AllPrograms-card" id="trening1">
-        <h2>Trening 3x tedensko</h2>
-        <h3>Paket zajema:</h3>
-        <ul>
-          <li>Brezplačen prvi posvet</li>
-          <li>3x tedensko trening pod vodstvom osebnega trenerja</li>
-          <li>Individualiziran program treninga</li>
-          <li>Prehranski coaching</li>
-          <li>24/7 podpora preko aplikacije Wapp</li>
-          <li>*veljavnost 4 tedne</li>
-        </ul>
-        <br></br>
-        <p>
-          Cena paketa = <span>300€</span>
-        </p>
-        <p>
-          Treningi potekajo v Cleverfit Maribor; najsodobnejšem fitnesu v
-          Mariboru.
-        </p>
-        <span>Fitnes karta ni všteta v ceno.</span>
-        <img
-          src="./images/madison.jpg"
-          alt="joga"
-          className="AllPrograms-img"
-        ></img>
-      </div>
-      <div className="AllPrograms-card" id="trening2">
-        <h2>Trening 2x tedensko</h2>
-        <h3>Paket zajema:</h3>
-        <ul>
-          <li>Brezplačen prvi posvet</li>
-          <li>2x tedensko trening pod vodstvom osebnega trenerja</li>
-          <li>Individualiziran program treninga</li>
-          <li>Prehranski coaching</li>
-          <li>24/7 podpora preko aplikacije Wapp</li>
-        </ul>
-        <br></br>
-        <p>
-          Cena paketa = <span>230€</span>
-        </p>
-        <p>
-          Treningi potekajo v Cleverfit Maribor; najsodobnejšem fitnesu v
-          Mariboru.
-        </p>
-        <span>Fitnes karta ni všteta v ceno.</span>
-        <img
-          src="./images/workout.jpg"
-          alt="joga"
-          className="AllPrograms-img"
-        ></img>
-      </div>
-      <div className="AllPrograms-card" id="trening3">
-        <h2>Trening v paru 3x tedensko</h2>
-        <h3>Paket zajema:</h3>
-        <ul>
-          <li>Brezplačen prvi posvet</li>
-          <li>3x tedensko trening v paru pod vodstvom osebnega trenerja</li>
-          <li>Individualiziran program treninga</li>
-          <li>Prehranski coaching</li>
-          <li>24/7 podpora preko aplikacije Wapp</li>
-        </ul>
-        <br></br>
-        <p>
-          Cena paketa = <span>400€</span>
-        </p>
-        <p>
-          Treningi potekajo v Cleverfit Maribor; najsodobnejšem fitnesu v
-          Mariboru.
-        </p>
-        <p>
+      <div className="AllPrograms-layout">
+        <div className="AllPrograms-card" id="trening1">
+          <h2>Trening 3x tedensko</h2>
+          <h3>Paket zajema:</h3>
+          <ul>
+            <li>Brezplačen prvi posvet</li>
+            <li>3x tedensko trening pod vodstvom osebnega trenerja</li>
+            <li>Individualiziran program treninga</li>
+            <li>Prehranski coaching</li>
+            <li>24/7 podpora preko aplikacije Wapp</li>
+            <li>*veljavnost 4 tedne</li>
+          </ul>
+          <br></br>
+          <p>
+            Cena paketa = <span>300€</span>
+          </p>
+          <p>
+            Treningi potekajo v Cleverfit Maribor; najsodobnejšem fitnesu v
+            Mariboru.
+          </p>
           <span>Fitnes karta ni všteta v ceno.</span>
-        </p>
-        <img
-          src="./images/workout2.jpg"
-          alt="joga"
-          className="AllPrograms-img"
-        ></img>
-      </div>
-      <div className="AllPrograms-card" id="trening4">
-        <h2>Trening v paru 2x tedensko</h2>
-        <h3>Paket zajema:</h3>
-        <ul>
-          <li>Brezplačen prvi posvet</li>
-          <li>2x tedensko trening v paru pod vodstvom osebnega trenerja</li>
-          <li>Individualiziran program treninga</li>
-          <li>Prehranski coaching</li>
-          <li>24/7 podpora preko aplikacije Wapp</li>
-          <li>*veljavnost 4 tedne</li>
-        </ul>
-        <br></br>
-        <p>
-          Cena paketa = <span>320€</span>
-        </p>
-        <p>
-          Treningi potekajo v Cleverfit Maribor; najsodobnejšem fitnesu v
-          Mariboru.
-        </p>
-        <p>Fitnes karta ni všteta v ceno.</p>
-        <img
-          src="./images/madison.jpg"
-          alt="joga"
-          className="AllPrograms-img"
-        ></img>
-      </div>
-      <div className="AllPrograms-card" id="trening5">
-        <h2>Online sodelovanje</h2>
-        <h3>Paket zajema:</h3>
-        <ul>
-          <li>Brezplačen prvi posvet</li>
-          <li>Individualiziran program treninga</li>
-          <li>Prehranski coaching</li>
-          <li>24/7 podpora preko aplikacije Wapp</li>
-        </ul>
-        <br></br>
-        <p>
-          Cena paketa = <span>90€</span>
-        </p>
-        <img
-          src="./images/madison.jpg"
-          alt="joga"
-          className="AllPrograms-img"
-        ></img>
-      </div>
-      <div className="AllPrograms-card" id="trening6">
-        <h2>Hibridni program</h2>
-        <h3>Paket zajema:</h3>
-        <ul>
-          <li>Brezplačen prvi posvet</li>
-          <li>1x tedensko trening pod vodstvom osebnega trenerja</li>
-          <li>Individualiziran program treninga</li>
-          <li>Prehranski coaching</li>
-          <li>24/7 podpora preko aplikacije Wapp</li>
-        </ul>
-        <br></br>
-        <p>
-          Cena paketa = <span>150€</span>
-        </p>
-        <img
-          src="./images/madison.jpg"
-          alt="joga"
-          className="AllPrograms-img"
-        ></img>
-      </div>
-      <div className="AllPrograms-card" id="trening7">
-        <h2>Posamezna ura treninga</h2>
-        <h3>Paket zajema:</h3>
-        <ul>
-          <li>1x trening pod vodstvom osebnega trenerja</li>
-          <li>Korekcija pri izvedbi vaj</li>
-          <li>Svetovanje pri sestavi trening programa in programa prehrane</li>
-        </ul>
-        <br></br>
-        <p>
-          Cena paketa = <span>35€</span>
-        </p>
-        <img
-          src="./images/madison.jpg"
-          alt="joga"
-          className="AllPrograms-img"
-        ></img>
-      </div>
-      <div className="AllPrograms-card" id="trening8">
-        <h2>12-tedenski individualiziran trening</h2>
-        <h3>Paket zajema:</h3>
-        <ul>
-          <li>Brezplačen posvet</li>
-          <li>Ocena trenutnega stanja</li>
-          <li>12-tedenski individualiziran trening program</li>
-        </ul>
-        <br></br>
-        <p>
-          Cena paketa = <span>70€</span>
-        </p>
-        <img
-          src="./images/madison.jpg"
-          alt="joga"
-          className="AllPrograms-img"
-        ></img>
+          <img
+            src="./images/trening1.jpg"
+            alt="trening 3x tedensko"
+            className="AllPrograms-img"
+          ></img>
+        </div>
+        <div className="AllPrograms-card" id="trening2">
+          <h2>Trening 2x tedensko</h2>
+          <h3>Paket zajema:</h3>
+          <ul>
+            <li>Brezplačen prvi posvet</li>
+            <li>2x tedensko trening pod vodstvom osebnega trenerja</li>
+            <li>Individualiziran program treninga</li>
+            <li>Prehranski coaching</li>
+            <li>24/7 podpora preko aplikacije Wapp</li>
+          </ul>
+          <br></br>
+          <p>
+            Cena paketa = <span>230€</span>
+          </p>
+          <p>
+            Treningi potekajo v Cleverfit Maribor; najsodobnejšem fitnesu v
+            Mariboru.
+          </p>
+          <span>Fitnes karta ni všteta v ceno.</span>
+          <img
+            src="./images/trening2.jpg"
+            alt="trening 2x tedensko"
+            className="AllPrograms-img"
+          ></img>
+        </div>
+        <div className="AllPrograms-card" id="trening3">
+          <h2>Trening v paru 3x tedensko</h2>
+          <h3>Paket zajema:</h3>
+          <ul>
+            <li>Brezplačen prvi posvet</li>
+            <li>3x tedensko trening v paru pod vodstvom osebnega trenerja</li>
+            <li>Individualiziran program treninga</li>
+            <li>Prehranski coaching</li>
+            <li>24/7 podpora preko aplikacije Wapp</li>
+          </ul>
+          <br></br>
+          <p>
+            Cena paketa = <span>400€</span>
+          </p>
+          <p>
+            Treningi potekajo v Cleverfit Maribor; najsodobnejšem fitnesu v
+            Mariboru.
+          </p>
+          <p>
+            <span>Fitnes karta ni všteta v ceno.</span>
+          </p>
+          <img
+            src="./images/trening3.jpg"
+            alt="trening v paru"
+            className="AllPrograms-img"
+          ></img>
+        </div>
+        <div className="AllPrograms-card" id="trening4">
+          <h2>Trening v paru 2x tedensko</h2>
+          <h3>Paket zajema:</h3>
+          <ul>
+            <li>Brezplačen prvi posvet</li>
+            <li>2x tedensko trening v paru pod vodstvom osebnega trenerja</li>
+            <li>Individualiziran program treninga</li>
+            <li>Prehranski coaching</li>
+            <li>24/7 podpora preko aplikacije Wapp</li>
+            <li>*veljavnost 4 tedne</li>
+          </ul>
+          <br></br>
+          <p>
+            Cena paketa = <span>320€</span>
+          </p>
+          <p>
+            Treningi potekajo v Cleverfit Maribor; najsodobnejšem fitnesu v
+            Mariboru.
+          </p>
+          <p>Fitnes karta ni všteta v ceno.</p>
+          <img
+            src="./images/trening4.jpg"
+            alt="trening v paru"
+            className="AllPrograms-img"
+          ></img>
+        </div>
+        <div className="AllPrograms-card" id="trening5">
+          <h2>Online sodelovanje</h2>
+          <h3>Paket zajema:</h3>
+          <ul>
+            <li>Brezplačen prvi posvet</li>
+            <li>Individualiziran program treninga</li>
+            <li>Prehranski coaching</li>
+            <li>24/7 podpora preko aplikacije Wapp</li>
+          </ul>
+          <br></br>
+          <p>
+            Cena paketa = <span>90€</span>
+          </p>
+          <img
+            src="./images/blaz5.jpg"
+            alt="online sodelovanje"
+            className="AllPrograms-img"
+          ></img>
+        </div>
+        <div className="AllPrograms-card" id="trening6">
+          <h2>Hibridni program</h2>
+          <h3>Paket zajema:</h3>
+          <ul>
+            <li>Brezplačen prvi posvet</li>
+            <li>1x tedensko trening pod vodstvom osebnega trenerja</li>
+            <li>Individualiziran program treninga</li>
+            <li>Prehranski coaching</li>
+            <li>24/7 podpora preko aplikacije Wapp</li>
+          </ul>
+          <br></br>
+          <p>
+            Cena paketa = <span>150€</span>
+          </p>
+          <img
+            src="./images/trening5.jpg"
+            alt="hibridni program"
+            className="AllPrograms-img"
+          ></img>
+        </div>
+        <div className="AllPrograms-card" id="trening7">
+          <h2>Posamezna ura treninga</h2>
+          <h3>Paket zajema:</h3>
+          <ul>
+            <li>1x trening pod vodstvom osebnega trenerja</li>
+            <li>Korekcija pri izvedbi vaj</li>
+            <li>
+              Svetovanje pri sestavi trening programa in programa prehrane
+            </li>
+          </ul>
+          <br></br>
+          <p>
+            Cena paketa = <span>35€</span>
+          </p>
+          <img
+            src="./images/trening6.jpg"
+            alt="posamezna ura treninga"
+            className="AllPrograms-img"
+          ></img>
+        </div>
+        <div className="AllPrograms-card" id="trening8">
+          <h2>12-tedenski individualiziran trening</h2>
+          <h3>Paket zajema:</h3>
+          <ul>
+            <li>Brezplačen posvet</li>
+            <li>Ocena trenutnega stanja</li>
+            <li>12-tedenski individualiziran trening program</li>
+          </ul>
+          <br></br>
+          <p>
+            Cena paketa = <span>70€</span>
+          </p>
+          <img
+            src="./images/trening7.jpg"
+            alt="posvet"
+            className="AllPrograms-img"
+          ></img>
+        </div>
       </div>
     </div>
   );

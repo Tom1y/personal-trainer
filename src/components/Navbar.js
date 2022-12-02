@@ -44,11 +44,11 @@ export default function Navbar() {
                 Masaže
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/clanki" onClick={toggler}>
                 Članki
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link to="/kontakt" onClick={toggler}>
                 Kontakt

@@ -16,6 +16,7 @@ export default function Omeni() {
         zdravju.
       </p>
       <br></br>
+      <img src="./images/blaz3.jpg" alt="blaz"></img>
       <p>
         Nato pa sem se pri 19. letih zaradi nizke samozavesti in slabe
         samopodobe odločil, da bom pričel trenirati v fitnesu in se tako prvič
@@ -41,7 +42,7 @@ export default function Omeni() {
       </p>
       <h2>Izobraževanja</h2>
       <h4 className="fitnes-list">Fitnes:</h4>
-      <ul>
+      <ul className="list">
         <li>IFPA mednarodno licenciran osebni trener</li>
         <li>IFPA specialist športne prehrane</li>
         <li>FemFit pred in po po-porodna vadba</li>
@@ -54,14 +55,17 @@ export default function Omeni() {
         </li>
       </ul>
       <h4 className="fitnes-list">Masaže:</h4>
-      <ul className="masaze">
+      <ul className="list">
         <li>Tečaj klasične masaže</li>
         <li>Tečaj športne masaže</li>
         <li>Tečaj ročne limfne drenaže po dr. Vodnarju</li>
         <li>Deep tissue in Trigger point masaža</li>
       </ul>
-
-      <img src="./images/hanza.jpg" alt="trener"></img>
+      <div className="AboutMe-galery">
+        <img src="./images/blaz4.jpg" alt="trener"></img>
+        <br></br>
+        <img src="./images/blaz5.jpg" alt="trener"></img>
+      </div>
     </div>
   );
 }

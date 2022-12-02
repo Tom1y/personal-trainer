@@ -5,7 +5,7 @@ import "./Article.css";
 export default function Article() {
   return (
     <div className="Article">
-      <div>
+      <div className="article-card">
         <h2>Zanimivosti</h2>
         <h3>Neka zanimiva tema</h3>
         <p>

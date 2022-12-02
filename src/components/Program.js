@@ -17,8 +17,8 @@ export default function Programi() {
       <div className="program-cards">
         <div className="programi-card">
           <img
-            src="./images/madison.jpg"
-            alt="joga"
+            src="./images/trening1.jpg"
+            alt="trening"
             className="programi-img"
           ></img>
           <h3>Trening 3x tedensko</h3>
@@ -33,8 +33,8 @@ export default function Programi() {
         </div>
         <div className="programi-card">
           <img
-            src="./images/workout.jpg"
-            alt="joga"
+            src="./images/trening2.jpg"
+            alt="trening"
             className="programi-img"
           ></img>
           <h3>Trening 2x tedensko</h3>
@@ -49,8 +49,8 @@ export default function Programi() {
         </div>
         <div className="programi-card">
           <img
-            src="./images/workout2.jpg"
-            alt="joga"
+            src="./images/trening3.jpg"
+            alt="trening"
             className="programi-img"
           ></img>
           <h3>Trening v paru 3x tedensko</h3>

@@ -5,13 +5,25 @@
   align-items: center;
   text-align: center;
   padding: 1rem 2rem;
+  background-color: #daddd8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.massage-backgorund {
+  background-color: #ecebe4;
+  padding-bottom: 10rem;
 }
 
 .massage-img {
-  width: 70%;
+  width: 90%;
+  /* height: rem; */
   border-radius: 10px;
   margin-bottom: 1.5rem;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  margin-top: 1rem;
 }
 
 .massage-btn {
@@ -20,6 +32,12 @@
   border: none;
   padding: 0.5rem 1rem;
   margin-bottom: 1rem;
+}
+
+@media (min-width: 550px) {
+  .massage-img {
+    height: 25rem;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -31,6 +49,21 @@
   }
 
   .massage-img {
-    width: 50%;
+    width: 35%;
+    height: 19rem;
+  }
+
+  .massage-card {
+    width: 60%;
+  }
+
+  .massage-card h2 {
+    margin-bottom: 1rem;
+  }
+  .massage-card p {
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 2rem;
   }
 }

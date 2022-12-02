@@ -26,7 +26,7 @@ export default function Header() {
           </Link>
         </div>
         <img
-          src="./images/arnold.jpg"
+          src="./images/blaz2.jpg"
           alt="fit oseba"
           className="main-img"
         ></img>

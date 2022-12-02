@@ -11,13 +11,15 @@
 .quote {
   margin-bottom: 1.5rem;
   color: #1c1c1c;
+  margin-top: 2rem;
+  line-height: 2.5rem;
 }
 
 .main-img {
   width: 100%;
-  height: 25rem;
-
+  height: 30%;
   justify-content: center;
+  border-radius: 5px;
 }
 
 .oMeni h2 {
@@ -51,6 +53,7 @@
     display: flex;
     gap: 2rem;
     margin-top: 1.5rem;
+    width: 80%;
   }
 
   .oMeni p {
@@ -58,7 +61,8 @@
   }
 
   .main-img {
-    width: 40%;
+    width: 55%;
+    height: 44rem;
   }
 
   .main-btn {
