@@ -6,7 +6,7 @@
   text-align: center;
   padding: 1rem 2rem;
   background-color: #daddd8;
-  width: 75%;
+  width: 80%;
   margin: auto;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -15,6 +15,7 @@
 .massage-backgorund {
   background-color: #ecebe4;
   padding-bottom: 10rem;
+  padding-top: 2rem;
 }
 
 .massage-img {
@@ -24,6 +25,9 @@
   margin-bottom: 1.5rem;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   margin-top: 1rem;
+  -webkit-box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .massage-btn {
@@ -49,7 +53,7 @@
   }
 
   .massage-img {
-    width: 35%;
+    width: 40%;
     height: 19rem;
   }
 

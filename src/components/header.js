@@ -5,22 +5,31 @@ import "./Header.css";
 export default function Header() {
   return (
     <div className="main" id="oMeni">
-      <h1 className="quote">
-        "Izzivi nas navdihujejo, zato je potrebno biti na njih dobro
-        pripravljen."
-      </h1>
+      <div className="quote-background">
+        <h1 className="quote">
+          "Trdno sem prepričan, da čisto vsak lahko doseže svoje fitnes cilje.
+          Vse, kar potrebuješ, je volja in ustrezno vodstvo. Za prvo moraš
+          poskrbeti sam, za drugo pa sem tukaj jaz."
+        </h1>
+      </div>
       <div className="oMeni">
-        <div>
+        <div className="opis">
           <h2>Nekaj besed o meni</h2>
           <p>
-            Moje ime je Blaž Podgoršek. Star sem 27 let. Z fitnesom se ukvarjam
-            ze x let
+            Nikoli nisem bil dober športnik. Če sem popolnoma iskren, nikoli
+            nisem niti maral športne vzgoje v šoli in verjetno sem bil eden
+            najslabših nogometašev v zgodovini NK Središče ob Dravi. Edino, kar
+            me je zanimalo, so bile borilne veščine. Zato sem v najstniških
+            letih začel trenirati aikido, kickbox in tajski boks, ampak tudi tam
+            sem bil čisto povprečen. Če bi mi nekdo takrat rekel da bom osebni
+            trener, bi ga vprašal po zdravju.
           </p>
           <p>
-            Trdno sem prepričan, da čisto vsak lahko doseže svoje fitnes cilje.
-            Vse, kar potrebuješ, je volja in ustrezno vodstvo. Za prvo moraš
-            poskrbeti sam, za drugo pa sem tukaj jaz.
+            Nato pa sem se pri 19. letih zaradi nizke samozavesti in slabe
+            samopodobe odločil, da bom pričel trenirati v fitnesu in se tako
+            prvič srečal z bodybuildingom – to pa me je popolnoma prevzelo...
           </p>
+
           <Link to="/jaz">
             <button className="main-btn">Preberi si več o meni</button>
           </Link>

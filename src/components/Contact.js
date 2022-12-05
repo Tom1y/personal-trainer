@@ -35,7 +35,7 @@ export default function Contact() {
             V kolikor imate kaksno vprasanje ali bi se pridruzili moji ekipi, mi
             lahko pisete preko obrazca
           </p>
-          <p>Odgovorim vam v roku 2-3 delovnih dni</p>
+          <p>Odgovorim vam v najkrajšem možnem času</p>
           <img
             src="./images/trening7.jpg"
             className="contact-img"

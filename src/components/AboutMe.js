@@ -4,19 +4,22 @@ import "./AboutMe.css";
 export default function Omeni() {
   return (
     <div className="AboutMe">
-      <h1>O meni</h1>
-      {/* <h2>Mogoce neki podnaslov</h2> */}
-      <p>
-        Nikoli nisem bil dober športnik. Če sem popolnoma iskren, nikoli nisem
-        niti maral športne vzgoje v šoli in verjetno sem bil eden najslabših
-        nogometašev v zgodovini NK Središče ob Dravi. Edino, kar me je zanimalo,
-        so bile borilne veščine. Zato sem v najstniških letih začel trenirati
-        aikido, kickbox in tajski boks, ampak tudi tam sem bil čisto povprečen.
-        Če bi mi nekdo takrat rekel da bom osebni trener, bi ga vprašal po
-        zdravju.
-      </p>
-      <br></br>
-      <img src="./images/blaz3.jpg" alt="blaz"></img>
+      <div className="aboutMe-background">
+        <div>
+          <h1>O meni</h1>
+          <p>
+            Nikoli nisem bil dober športnik. Če sem popolnoma iskren, nikoli
+            nisem niti maral športne vzgoje v šoli in verjetno sem bil eden
+            najslabših nogometašev v zgodovini NK Središče ob Dravi. Edino, kar
+            me je zanimalo, so bile borilne veščine. Zato sem v najstniških
+            letih začel trenirati aikido, kickbox in tajski boks, ampak tudi tam
+            sem bil čisto povprečen. Če bi mi nekdo takrat rekel da bom osebni
+            trener, bi ga vprašal po zdravju.
+          </p>
+        </div>
+        <img src="./images/blaz3.jpg" alt="blaz" className="aboutMe-img"></img>
+      </div>
+
       <p>
         Nato pa sem se pri 19. letih zaradi nizke samozavesti in slabe
         samopodobe odločil, da bom pričel trenirati v fitnesu in se tako prvič
@@ -40,31 +43,44 @@ export default function Omeni() {
         kar potrebuješ, je volja in ustrezno vodstvo. Za prvo moraš poskrbeti
         sam, za drugo pa sem tukaj jaz.
       </p>
+
       <h2>Izobraževanja</h2>
-      <h4 className="fitnes-list">Fitnes:</h4>
-      <ul className="list">
-        <li>IFPA mednarodno licenciran osebni trener</li>
-        <li>IFPA specialist športne prehrane</li>
-        <li>FemFit pred in po po-porodna vadba</li>
-        <li>
-          Clean health Fitness institute Dr. Layne Norton's Science of Nutrition
-        </li>
-        <li>
-          Clean health Fitness institute Dr. Layne Norton's Advanced Nutrition
-          for Fat Loss
-        </li>
-      </ul>
-      <h4 className="fitnes-list">Masaže:</h4>
-      <ul className="list">
-        <li>Tečaj klasične masaže</li>
-        <li>Tečaj športne masaže</li>
-        <li>Tečaj ročne limfne drenaže po dr. Vodnarju</li>
-        <li>Deep tissue in Trigger point masaža</li>
-      </ul>
-      <div className="AboutMe-galery">
-        <img src="./images/blaz4.jpg" alt="trener"></img>
-        <br></br>
-        <img src="./images/blaz5.jpg" alt="trener"></img>
+      <div className="education">
+        <div className="education-card">
+          <h4 className="fitnes-list">Fitnes:</h4>
+          <ul className="list">
+            <li>IFPA mednarodno licenciran osebni trener</li>
+            <li>IFPA specialist športne prehrane</li>
+            <li>FemFit pred in po po-porodna vadba</li>
+            <li>
+              Clean health Fitness institute Dr. Layne Norton's Science of
+              Nutrition
+            </li>
+            <li>
+              Clean health Fitness institute Dr. Layne Norton's Advanced
+              Nutrition for Fat Loss
+            </li>
+          </ul>
+          <img
+            src="./images/massage1.jpg"
+            alt="trening"
+            className="education-img"
+          ></img>
+        </div>
+        <div className="education-card">
+          <h4 className="fitnes-list">Masaže:</h4>
+          <ul className="list">
+            <li>Tečaj klasične masaže</li>
+            <li>Tečaj športne masaže</li>
+            <li>Tečaj ročne limfne drenaže po dr. Vodnarju</li>
+            <li>Deep tissue in Trigger point masaža</li>
+          </ul>
+          <img
+            src="./images/massage2.jpg"
+            alt="trening"
+            className="education-img"
+          ></img>
+        </div>
       </div>
     </div>
   );

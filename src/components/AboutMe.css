@@ -3,15 +3,43 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem 2rem;
+  /* padding: 1rem 2rem; */
   text-align: center;
 }
 
-.AboutMe img {
+.AboutMe p {
+  margin: 0.5rem 2rem;
+}
+.AboutMe h1 {
+  margin-top: 1rem;
+}
+.AboutMe h2 {
+  margin-top: 1.5rem;
+}
+
+.education-card {
+  padding: 0.5rem 2rem;
+}
+
+.aboutMe-img {
   width: 90%;
   border-radius: 10px;
   margin-bottom: 3rem;
   margin-top: 1rem;
+  height: 15rem;
+  -webkit-box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.education-img {
+  width: 90%;
+  border-radius: 10px;
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+  height: 15rem;
+  -webkit-box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
 .fitnes-list {
@@ -34,19 +62,79 @@
   margin-bottom: 2rem;
 }
 
-@media (min-width: 1000px) {
-  .AboutMe img {
-    height: 40rem;
+.aboutMe-background {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(28, 28, 28, 0.3);
+  width: 100%;
+}
+@media (min-width: 400px) {
+  .aboutMe-img {
+    width: 65%;
+  }
+  .education-img {
+    width: 65%;
+  }
+}
+@media (min-width: 600px) {
+  .education-img {
+    height: 20rem;
     width: 50%;
+  }
+  .aboutMe-img {
+    width: 50%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .aboutMe-img {
+    height: 20rem;
+    width: 25%;
+    margin-right: 10rem;
+    margin-left: -3rem;
+  }
+
+  .education-img {
+    height: 20rem;
+    width: 80%;
   }
 
   .AboutMe p {
-    width: 75%;
+    width: 65%;
   }
 
   .AboutMe-galery {
     display: flex;
     justify-content: space-between;
     gap: 5rem;
+  }
+
+  .education {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    align-items: flex-end;
+    margin-top: 1rem;
+  }
+
+  .education-card {
+    width: 26rem;
+  }
+
+  .aboutMe-background {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .aboutMe-background p {
+    width: 45%;
+    margin: auto;
   }
 }

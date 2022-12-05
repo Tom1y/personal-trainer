@@ -151,7 +151,7 @@ export default function VsiProgrami() {
             Cena paketa = <span>90€</span>
           </p>
           <img
-            src="./images/blaz5.jpg"
+            src="./images/background.jpg"
             alt="online sodelovanje"
             className="AllPrograms-img"
           ></img>

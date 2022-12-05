@@ -12,7 +12,7 @@ export default function Footer() {
           kontaktiraj s klikom spodaj.
         </p> */}
         <Link to="/kontakt">
-          <button>Piši mi</button>
+          <button>Kontaktiraj me</button>
         </Link>
       </div>
     </div>
