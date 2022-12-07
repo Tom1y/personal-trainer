@@ -32,9 +32,11 @@ export default function Contact() {
         <div className="contact-info">
           <h2>Kontaktiraj me</h2>
           <p>
-            V kolikor imate kakšno vprašanje ali bi se pridružili moji ekipi, mi
-            lahko pišete preko obrazca
+            V kolikor imate kakšno vprašanje mi lahko pišete na email ali preko
+            obrazca
           </p>
+          <p className="contact-bold">podgorsek.blaz@gmail.com</p>
+          <br></br>
           <p>Odgovorim vam v najkrajšem možnem času</p>
           <img
             src="./images/trening7.jpg"

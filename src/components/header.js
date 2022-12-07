@@ -34,11 +34,7 @@ export default function Header() {
             <button className="main-btn">Preberi si več o meni</button>
           </Link>
         </div>
-        <img
-          src="./images/blaz2.jpg"
-          alt="fit oseba"
-          className="main-img"
-        ></img>
+        <img src="images/blaz2.jpg" alt="fit oseba" className="main-img"></img>
       </div>
     </div>
   );
