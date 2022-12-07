@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/personal-trainer/static/css/main.9d39f1f6.css",
-    "main.js": "/personal-trainer/static/js/main.900a8460.js",
+    "main.js": "/personal-trainer/static/js/main.eefe04b0.js",
     "static/media/background1.jpg": "/personal-trainer/static/media/background1.54a7dfcaf56ef28557a3.jpg",
     "index.html": "/personal-trainer/index.html",
     "main.9d39f1f6.css.map": "/personal-trainer/static/css/main.9d39f1f6.css.map",
-    "main.900a8460.js.map": "/personal-trainer/static/js/main.900a8460.js.map"
+    "main.eefe04b0.js.map": "/personal-trainer/static/js/main.eefe04b0.js.map"
   },
   "entrypoints": [
     "static/css/main.9d39f1f6.css",
-    "static/js/main.900a8460.js"
+    "static/js/main.eefe04b0.js"
   ]
 }
