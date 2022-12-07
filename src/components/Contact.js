@@ -32,8 +32,8 @@ export default function Contact() {
         <div className="contact-info">
           <h2>Kontaktiraj me</h2>
           <p>
-            V kolikor imate kaksno vprasanje ali bi se pridruzili moji ekipi, mi
-            lahko pisete preko obrazca
+            V kolikor imate kakšno vprašanje ali bi se pridružili moji ekipi, mi
+            lahko pišete preko obrazca
           </p>
           <p>Odgovorim vam v najkrajšem možnem času</p>
           <img
