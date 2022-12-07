@@ -34,8 +34,10 @@
   background-color: #1c1c1c;
   color: #ecebe4;
   border: none;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 3rem;
   margin-bottom: 1rem;
+  font-weight: bold;
+  border-radius: 10px;
 }
 
 @media (min-width: 550px) {

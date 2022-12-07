@@ -111,7 +111,7 @@ export default function VsiProgrami() {
           </ul>
           <br></br>
           <p>
-            Cena paketa = <span>400€</span>
+            Cena paketa = <span>380€</span>
           </p>
           <p>
             Treningi potekajo v Cleverfit Maribor; najsodobnejšem fitnesu v

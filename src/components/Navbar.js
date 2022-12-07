@@ -12,7 +12,13 @@ export default function Navbar() {
     <>
       <div className="navbar">
         <div className="navbar-logo">
-          <img src="./images/Logo(1).svg" alt="logo" className="logo-img"></img>
+          <Link to="/">
+            <img
+              src="./images/Logo(1).svg"
+              alt="logo"
+              className="logo-img"
+            ></img>
+          </Link>
           <h3 className="navbar-title">Blaž Podgoršek</h3>
         </div>
         <div>

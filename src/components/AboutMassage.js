@@ -59,7 +59,7 @@ export default function AboutMassage() {
           <li>Trajanje 40 minut</li>
         </ul>
         <p>
-          Cena = <b>40€</b>
+          Cena = <b>35€</b>
         </p>
         <Link to="/kontakt">
           <button className="allPrograms-button">Rezerviraj termin</button>
@@ -76,7 +76,7 @@ export default function AboutMassage() {
           <li>Trajanje 30-40 minut</li>
         </ul>
         <p>
-          Cena = <b>40€</b>
+          Cena = <b>35€</b>
         </p>
         <Link to="/kontakt">
           <button className="allPrograms-button">Rezerviraj termin</button>

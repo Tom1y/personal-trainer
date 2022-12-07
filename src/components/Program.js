@@ -5,12 +5,12 @@ import "./Program.css";
 export default function Programi() {
   return (
     <div className="programi" id="trening">
-      <h2>Treniraj z mano</h2>
-      <p className="programi-opis">
+      <h2>Najbolj zaželjeni programi</h2>
+      {/* <p className="programi-opis">
         Ponudim ti lahko individualne ali skupinske treninge, ter treninge za
         sportnike. Lahko izbiras tudi med on-line programi. Izbira programa je
         tvoja
-      </p>
+      </p> */}
       <Link to="/programi">
         <button className="programi-btn">Seznam vseh programov</button>
       </Link>
@@ -28,7 +28,7 @@ export default function Programi() {
             prehranski coaching in 24/7 podporo preko aplikacije Wapp
           </p>
           <Link to="/programi">
-            <button className="programi-btn">Vec o programih</button>
+            <button className="programi-btn">Rezerviraj termin</button>
           </Link>
         </div>
         <div className="programi-card">
@@ -44,7 +44,7 @@ export default function Programi() {
             prehranski coaching in 24/7 podporo preko aplikacije Wapp
           </p>
           <Link to="/programi">
-            <button className="programi-btn">Vec o programih</button>
+            <button className="programi-btn">Rezerviraj termin</button>
           </Link>
         </div>
         <div className="programi-card">
@@ -60,7 +60,7 @@ export default function Programi() {
             prehranski coaching in 24/7 podporo preko aplikacije Wapp
           </p>
           <Link to="/programi">
-            <button className="programi-btn">Vec o programih</button>
+            <button className="programi-btn">Rezerviraj termin</button>
           </Link>
         </div>
       </div>

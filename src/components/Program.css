@@ -38,8 +38,11 @@
   background-color: #1c1c1c;
   color: #ecebe4;
   border: none;
-  padding: 0.5rem 1rem;
-  margin-bottom: 1rem;
+  padding: 0.7rem 6rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  border-radius: 10px;
 }
 
 .programi-card > h3 {
