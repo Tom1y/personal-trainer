@@ -17,6 +17,21 @@
   box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
 }
 
+.allPrograms-button {
+  background-color: #1c1c1c;
+  color: #ecebe4;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 15px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.allPrograms-background {
+  background-color: rgb(28, 28, 28, 0.3);
+  padding: 0.5rem 0.5rem;
+}
+
 .AllProgramsNavigation {
   background-color: #1c1c1c;
   width: 100%;

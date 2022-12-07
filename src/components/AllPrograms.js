@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./AllPrograms.css";
 
 export default function VsiProgrami() {
@@ -52,12 +53,19 @@ export default function VsiProgrami() {
             Treningi potekajo v Cleverfit Maribor; najsodobnejšem fitnesu v
             Mariboru.
           </p>
-          <span>Fitnes karta ni všteta v ceno.</span>
-          <img
-            src="./images/trening1.jpg"
-            alt="trening 3x tedensko"
-            className="AllPrograms-img"
-          ></img>
+          <p>
+            <span>Fitnes karta ni všteta v ceno.</span>
+          </p>
+          <Link to="/kontakt">
+            <button className="allPrograms-button">Rezerviraj termin</button>
+          </Link>
+          <div className="allPrograms-background">
+            <img
+              src="./images/trening1.jpg"
+              alt="trening 3x tedensko"
+              className="AllPrograms-img"
+            ></img>
+          </div>
         </div>
         <div className="AllPrograms-card" id="trening2">
           <h2>Trening 2x tedensko</h2>
@@ -77,12 +85,19 @@ export default function VsiProgrami() {
             Treningi potekajo v Cleverfit Maribor; najsodobnejšem fitnesu v
             Mariboru.
           </p>
-          <span>Fitnes karta ni všteta v ceno.</span>
-          <img
-            src="./images/trening2.jpg"
-            alt="trening 2x tedensko"
-            className="AllPrograms-img"
-          ></img>
+          <p>
+            <span>Fitnes karta ni všteta v ceno.</span>
+          </p>
+          <Link to="/kontakt">
+            <button className="allPrograms-button">Rezerviraj termin</button>
+          </Link>
+          <div className="allPrograms-background">
+            <img
+              src="./images/trening2.jpg"
+              alt="trening 2x tedensko"
+              className="AllPrograms-img"
+            ></img>
+          </div>
         </div>
         <div className="AllPrograms-card" id="trening3">
           <h2>Trening v paru 3x tedensko</h2>
@@ -105,11 +120,16 @@ export default function VsiProgrami() {
           <p>
             <span>Fitnes karta ni všteta v ceno.</span>
           </p>
-          <img
-            src="./images/trening3.jpg"
-            alt="trening v paru"
-            className="AllPrograms-img"
-          ></img>
+          <Link to="/kontakt">
+            <button className="allPrograms-button">Rezerviraj termin</button>
+          </Link>
+          <div className="allPrograms-background">
+            <img
+              src="./images/trening3.jpg"
+              alt="trening v paru"
+              className="AllPrograms-img"
+            ></img>
+          </div>
         </div>
         <div className="AllPrograms-card" id="trening4">
           <h2>Trening v paru 2x tedensko</h2>
@@ -130,12 +150,19 @@ export default function VsiProgrami() {
             Treningi potekajo v Cleverfit Maribor; najsodobnejšem fitnesu v
             Mariboru.
           </p>
-          <p>Fitnes karta ni všteta v ceno.</p>
-          <img
-            src="./images/trening4.jpg"
-            alt="trening v paru"
-            className="AllPrograms-img"
-          ></img>
+          <p>
+            <span>Fitnes karta ni všteta v ceno.</span>
+          </p>
+          <Link to="/kontakt">
+            <button className="allPrograms-button">Rezerviraj termin</button>
+          </Link>
+          <div className="allPrograms-background">
+            <img
+              src="./images/trening4.jpg"
+              alt="trening v paru"
+              className="AllPrograms-img"
+            ></img>
+          </div>
         </div>
         <div className="AllPrograms-card" id="trening5">
           <h2>Online sodelovanje</h2>
@@ -150,11 +177,16 @@ export default function VsiProgrami() {
           <p>
             Cena paketa = <span>90€</span>
           </p>
-          <img
-            src="./images/background.jpg"
-            alt="online sodelovanje"
-            className="AllPrograms-img"
-          ></img>
+          <Link to="/kontakt">
+            <button className="allPrograms-button">Rezerviraj termin</button>
+          </Link>
+          <div className="allPrograms-background">
+            <img
+              src="./images/background.jpg"
+              alt="online sodelovanje"
+              className="AllPrograms-img"
+            ></img>
+          </div>
         </div>
         <div className="AllPrograms-card" id="trening6">
           <h2>Hibridni program</h2>
@@ -170,11 +202,16 @@ export default function VsiProgrami() {
           <p>
             Cena paketa = <span>150€</span>
           </p>
-          <img
-            src="./images/trening5.jpg"
-            alt="hibridni program"
-            className="AllPrograms-img"
-          ></img>
+          <Link to="/kontakt">
+            <button className="allPrograms-button">Rezerviraj termin</button>
+          </Link>
+          <div className="allPrograms-background">
+            <img
+              src="./images/trening5.jpg"
+              alt="hibridni program"
+              className="AllPrograms-img"
+            ></img>
+          </div>
         </div>
         <div className="AllPrograms-card" id="trening7">
           <h2>Posamezna ura treninga</h2>
@@ -190,11 +227,16 @@ export default function VsiProgrami() {
           <p>
             Cena paketa = <span>35€</span>
           </p>
-          <img
-            src="./images/trening6.jpg"
-            alt="posamezna ura treninga"
-            className="AllPrograms-img"
-          ></img>
+          <Link to="/kontakt">
+            <button className="allPrograms-button">Rezerviraj termin</button>
+          </Link>
+          <div className="allPrograms-background">
+            <img
+              src="./images/trening6.jpg"
+              alt="posamezna ura treninga"
+              className="AllPrograms-img"
+            ></img>
+          </div>
         </div>
         <div className="AllPrograms-card" id="trening8">
           <h2>12-tedenski individualiziran trening</h2>
@@ -208,11 +250,16 @@ export default function VsiProgrami() {
           <p>
             Cena paketa = <span>70€</span>
           </p>
-          <img
-            src="./images/trening7.jpg"
-            alt="posvet"
-            className="AllPrograms-img"
-          ></img>
+          <Link to="/kontakt">
+            <button className="allPrograms-button">Rezerviraj termin</button>
+          </Link>
+          <div className="allPrograms-background">
+            <img
+              src="./images/trening7.jpg"
+              alt="posvet"
+              className="AllPrograms-img"
+            ></img>
+          </div>
         </div>
       </div>
     </div>

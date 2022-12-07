@@ -105,15 +105,18 @@
   }
 
   .opis {
-    width: 60%;
+    width: 50%;
   }
 
   .oMeni p {
-    line-height: 1.5rem;
+    line-height: 1.8rem;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 1rem;
   }
 
   .main-img {
-    width: 52%;
+    width: 45%;
     height: 40rem;
   }
 

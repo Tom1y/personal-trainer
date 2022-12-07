@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./AboutMassage.css";
 
 export default function AboutMassage() {
@@ -20,6 +21,9 @@ export default function AboutMassage() {
         <p>
           Cena = <b>30€</b>
         </p>
+        <Link to="/kontakt">
+          <button className="allPrograms-button">Rezerviraj termin</button>
+        </Link>
       </div>
       <div className="massage-background-black">
         <h3>Klasična masaža celega telesa:</h3>
@@ -36,6 +40,9 @@ export default function AboutMassage() {
         <p>
           Cena = <b>40€</b>
         </p>
+        <Link to="/kontakt">
+          <button className="allPrograms-button">Rezerviraj termin</button>
+        </Link>
       </div>
       <div className="massage-background-white">
         <h3>Športna masaža</h3>
@@ -54,6 +61,9 @@ export default function AboutMassage() {
         <p>
           Cena = <b>40€</b>
         </p>
+        <Link to="/kontakt">
+          <button className="allPrograms-button">Rezerviraj termin</button>
+        </Link>
       </div>
       <div className="massage-background-black">
         <h3>Terapevtska »Deep Tissue« protibolečinska masaža</h3>
@@ -68,6 +78,9 @@ export default function AboutMassage() {
         <p>
           Cena = <b>40€</b>
         </p>
+        <Link to="/kontakt">
+          <button className="allPrograms-button">Rezerviraj termin</button>
+        </Link>
       </div>
       <div className="massage-background-white">
         <h3>Limfna drenaža po metodi Vodder</h3>
@@ -88,6 +101,9 @@ export default function AboutMassage() {
         <p>
           Cena = <b>30€</b>
         </p>
+        <Link to="/kontakt">
+          <button className="allPrograms-button">Rezerviraj termin</button>
+        </Link>
       </div>
       <div className="massage-background-black">
         <h3>Masaža na dom</h3>
@@ -97,6 +113,9 @@ export default function AboutMassage() {
         <p>
           Cena = <b>50€</b>
         </p>
+        <Link to="/kontakt">
+          <button className="allPrograms-button">Rezerviraj termin</button>
+        </Link>
       </div>
     </div>
   );

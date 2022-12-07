@@ -62,6 +62,7 @@ export default function Contact() {
               <option value="hibridno">Hibridni program</option>
               <option value="posameznUra">Posamezna ura treninga</option>
               <option value="12tedenski">12-tedenski indi. trening</option>
+              <option value="masaza">Masaža</option>
             </select>
             {/* <label>Sporočilo</label> */}
             <textarea
