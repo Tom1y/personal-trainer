@@ -49,7 +49,7 @@ export default function Programi() {
         </div>
         <div className="programi-card">
           <img
-            src="./images/trening3.jpg"
+            src="./images/trening4.jpg"
             alt="trening"
             className="programi-img"
           ></img>

@@ -8,7 +8,7 @@
 }
 
 .AllPrograms-img {
-  width: 70%;
+  max-width: 80%;
   border-radius: 10px;
   display: flex;
   margin: 2rem auto;
@@ -73,6 +73,7 @@ h3 {
 
 @media (min-width: 1000px) {
   .AllPrograms-img {
-    width: 50%;
+    max-width: 50%;
+    height: auto;
   }
 }

@@ -26,8 +26,9 @@
 }
 
 .main-img {
-  width: 100%;
-  height: 30%;
+  max-width: 100%;
+  /* height: 30%; */
+  height: auto;
   justify-content: center;
   border-radius: 5px;
   -webkit-box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
@@ -116,8 +117,11 @@
   }
 
   .main-img {
-    width: 45%;
-    height: 40rem;
+    /* width: 45%; */
+    max-width: 50%;
+    height: 32rem;
+
+    /* height: 40rem; */
   }
 
   .main-btn {

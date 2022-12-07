@@ -19,7 +19,7 @@
 }
 
 .massage-img {
-  width: 90%;
+  max-width: 100%;
   /* height: rem; */
   border-radius: 10px;
   margin-bottom: 1.5rem;
@@ -55,8 +55,9 @@
   }
 
   .massage-img {
-    width: 40%;
-    height: 19rem;
+    max-width: 40%;
+    /* height: 19rem; */
+    height: auto;
   }
 
   .massage-card {

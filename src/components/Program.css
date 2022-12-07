@@ -24,9 +24,10 @@
 }
 
 .programi-img {
-  width: 100%;
+  max-width: 100%;
   /* margin: auto; */
-  height: 18rem;
+  /* height: 18rem; */
+  height: auto;
   border-radius: 5px;
   margin-top: 0.7rem;
   -webkit-box-shadow: 6px 6px 5px 0px rgba(0, 0, 0, 0.75);
@@ -38,7 +39,7 @@
   background-color: #1c1c1c;
   color: #ecebe4;
   border: none;
-  padding: 0.7rem 6rem;
+  padding: 0.7rem 5rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
   font-weight: bold;
@@ -56,13 +57,13 @@
 
 @media (min-width: 550px) {
   .programi-img {
-    width: 70%;
+    max-width: 70%;
   }
 }
 
 @media (min-width: 700px) {
   .programi-img {
-    width: 70%;
+    max-width: 70%;
   }
 
   .program-cards {
@@ -88,7 +89,7 @@
   }
 
   .programi-img {
-    width: 100%;
+    max-width: 100%;
     margin: 1rem auto;
   }
 }
